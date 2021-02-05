@@ -1,0 +1,12 @@
+[submodule "platform-freebsd"]
+	path = platform-freebsd
+	url = ../platform-freebsd
+[submodule "storage-freebsd"]
+	path = storage-freebsd
+	url = ../storage-freebsd
+[submodule "third-freebsd"]
+	path = third-freebsd
+	url = ../third-freebsd
+[submodule "tool-freebsd"]
+	path = tool-freebsd
+	url = ../tool-freebsd

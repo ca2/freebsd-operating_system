@@ -10,3 +10,6 @@
 [submodule "tool-freebsd"]
 	path = tool-freebsd
 	url = ../tool-freebsd
+[submodule "platform-posix"]
+	path = platform-posix
+	url = ../platform-posix

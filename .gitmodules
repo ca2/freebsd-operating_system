@@ -13,3 +13,9 @@
 [submodule "platform-posix"]
 	path = platform-posix
 	url = ../platform-posix
+[submodule "operating-system-freebsd"]
+	path = operating-system-freebsd
+	url = ../operating-system-freebsd
+[submodule "operating-system-posix"]
+	path = operating-system-posix
+	url = ../operating-system-posix

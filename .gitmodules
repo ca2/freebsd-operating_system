@@ -1,12 +1,3 @@
-[submodule "storage-freebsd"]
-	path = storage-freebsd
-	url = ../storage-freebsd
-[submodule "third-freebsd"]
-	path = third-freebsd
-	url = ../third-freebsd
-[submodule "tool-freebsd"]
-	path = tool-freebsd
-	url = ../tool-freebsd
 [submodule "operating-system-freebsd"]
 	path = operating-system-freebsd
 	url = ../operating-system-freebsd

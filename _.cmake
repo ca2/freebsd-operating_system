@@ -1,8 +1,8 @@
 
 
-if(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
+if(${CMAKE_SYSTEM_NAME} STREQUAL "FreeBSD")
 
-    include(operating_system/operating_system-linux/_.cmake)
+    include(operating_system/operating_system-freebsd/_.cmake)
 
 endif()
 

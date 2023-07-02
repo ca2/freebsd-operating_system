@@ -1,9 +1,12 @@
-[submodule "operating-system-freebsd"]
-	path = operating-system-freebsd
-	url = ../operating-system-freebsd
-[submodule "operating-system-posix"]
-	path = operating-system-posix
-	url = ../operating-system-posix
-[submodule "operating-system-darwin"]
-	path = operating-system-darwin
-	url = ../operating-system-darwin
+[submodule "operating_system-posix"]
+	path = operating_system-posix
+	url = ../operating_system-posix
+	branch = main
+[submodule "operating_system-darwin"]
+	path = operating_system-darwin
+	url = ../operating_system-darwin
+	branch = main
+[submodule "operating_system-freebsd"]
+	path = operating_system-freebsd
+	url = ../operating_system-freebsd
+	branch = main

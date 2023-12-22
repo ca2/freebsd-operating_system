@@ -4,6 +4,7 @@ project(freebsd-operating_system)
 
 add_subdirectory(operating_system-freebsd/node_freebsd)
 add_subdirectory(operating_system-posix/acme_posix)
+add_subdirectory(operating_system-darwin/darwin)
 add_subdirectory(operating_system-darwin/acme_darwin)
 add_subdirectory(operating_system-freebsd/acme_freebsd)
 add_subdirectory(operating_system-posix/apex_posix)

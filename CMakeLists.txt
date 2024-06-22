@@ -13,6 +13,16 @@ add_subdirectory(operating_system-freebsd/apex_freebsd)
 add_subdirectory(operating_system-posix/aura_posix)
 add_subdirectory(operating_system-darwin/aura_darwin)
 add_subdirectory(operating_system-freebsd/aura_freebsd)
+
+add_subdirectory(operating_system-posix/nano_dynamic_library_dl)
+add_subdirectory(operating_system-posix/nano_dynamic_library_dl_null)
+
+add_subdirectory(operating_system-posix/windowing_posix)
+add_subdirectory(operating_system-posix/nano_user_cairo)
+add_subdirectory(operating_system-posix/windowing_system_x11)
+add_subdirectory(operating_system-posix/node_gdk)
+add_subdirectory(operating_system-posix/nano_user_x11)
+
 if(LXDE_DESKTOP)
     add_subdirectory(operating_system-posix/windowing_x11)
     add_subdirectory(operating_system-posix/node_gtk)

@@ -17,6 +17,10 @@ add_subdirectory(operating_system-freebsd/aura_freebsd)
 add_subdirectory(operating_system-posix/nano_dynamic_library_dl)
 add_subdirectory(operating_system-posix/nano_dynamic_library_dl_null)
 
+add_subdirectory(operating_system-posix/nano_compress_command_line)
+add_subdirectory(operating_system-posix/nano_http_command_line)
+add_subdirectory(operating_system-posix/nano_http_libcurl)
+
 add_subdirectory(operating_system-posix/windowing_posix)
 add_subdirectory(operating_system-posix/nano_user_cairo)
 add_subdirectory(operating_system-posix/windowing_system_x11)

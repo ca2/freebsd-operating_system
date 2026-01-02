@@ -101,7 +101,9 @@ add_subdirectory(operating_system-posix/write_text_pango)
 add_subdirectory(operating_system-posix/audio_alsa)
 #add_subdirectory(operating_system-posix/input_xinput)
 #add_subdirectory(operating_system-freebsd/audio_mixer_alsa)
+if(${WITH_MIDI})
 add_subdirectory(operating_system-posix/music_midi_alsa)
+endif()
 
 
 

@@ -97,8 +97,10 @@ elseif(${KDE_DESKTOP})
 endif()
 
 
-if(${WITH_AUDIO})
 add_subdirectory(operating_system-posix/write_text_pango)
+
+
+if(${WITH_AUDIO})
 add_subdirectory(operating_system-posix/audio_alsa)
 #add_subdirectory(operating_system-posix/input_xinput)
 #add_subdirectory(operating_system-freebsd/audio_mixer_alsa)
